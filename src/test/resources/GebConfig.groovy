@@ -9,12 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver
 
 // See: http://code.google.com/p/selenium/wiki/HtmlUnitDriver
 driver = { new ChromeDriver() }
-//baseUrl = "http://localhost:8080/bdd-demo/"
+baseUrl = "http://localhost:8000/bdd-demo/"
 environments {
  
  // run as “mvn -Dgeb.env=chrome test”
  // See: http://code.google.com/p/selenium/wiki/ChromeDriver
- build-chrome {
+ build-firefox {
 		 driver = { new FirefoxDriver() }
 		 baseUrl = "http://my-build-server:8080/bdd-demo/"
  }

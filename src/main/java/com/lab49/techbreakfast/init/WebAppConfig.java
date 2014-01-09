@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan("com.lab49.techbreakfast.web")
+@ComponentScan("com.lab49.techbreakfast")
 @EnableWebMvc
 public class WebAppConfig {
  
