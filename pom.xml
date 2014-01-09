@@ -219,6 +219,9 @@
 		<groupId>org.apache.tomcat.maven</groupId>
 		<artifactId>tomcat7-maven-plugin</artifactId>
 		<version>2.0</version>
+		<configuration>
+           <port>8000</port>
+        </configuration>
 	  </plugin>
       <plugin>
           <groupId>org.eclipse.jetty</groupId>
